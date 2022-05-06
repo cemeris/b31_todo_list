@@ -10,6 +10,18 @@ p, h1, h2, h3, h4, h5, h6, li, button {
     color: #801F15;
 }
 
+button {
+    background: #b5e4bf;
+    border:0;
+    border-radius:5px;
+    transition: background 0.5s, color 1s;
+    &:hover {
+        color:#b5e4bf;
+        background: #550800;
+        transition: background 0.5s, color 1s;
+    }
+}
+
 .todo_list{
     margin-top:40px;
 }
